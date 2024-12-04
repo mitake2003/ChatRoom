@@ -1,0 +1,39 @@
+body {
+    display: flex; 
+    justify-content: center;
+}
+
+#form-container {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#form-container h1 {
+    text-align: center;
+}
+
+#form-container input { 
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+#btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: #333; 
+    border: none; 
+    padding: 0.6rem;  
+    border-radius: 4px; 
+    outline: none; 
+    color: #fff;
+}

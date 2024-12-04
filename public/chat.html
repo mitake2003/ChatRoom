@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="./css/chat.css" />
+  </head>
+  <body>
+    <div id="users"></div>
+    <div>
+      <div id="room_info">
+        <div id="room">Room : <span id="room_name"></span></div>
+        <button id="leave">Leave</button>
+      </div>
+      <ul id="messages"></ul>
+      <form id="form" action="">
+        <input id="input" autocomplete="off" /><button type="submit">
+          Send
+        </button>
+      </form>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.13.1/qs.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/client.js"></script>
+  </body>
+</html>
